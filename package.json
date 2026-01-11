@@ -1,6 +1,6 @@
 {
   "name": "@galaxygab121/readme-cards",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate clean GitHub README project cards from JSON inputs.",
   "type": "module",
   "license": "MIT",
