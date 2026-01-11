@@ -5,7 +5,13 @@
   "type": "module",
   "license": "MIT",
   "author": "Gabrielle Boyer-Baker",
-  "keywords": ["github", "readme", "markdown", "cli", "typescript"],
+  "keywords": [
+    "github",
+    "readme",
+    "markdown",
+    "cli",
+    "typescript"
+  ],
   "homepage": "https://github.com/galaxygab121/readme-cards",
   "repository": {
     "type": "git",
@@ -15,9 +21,13 @@
     "url": "https://github.com/galaxygab121/readme-cards/issues"
   },
   "bin": {
-    "readme-cards": "./dist/cli.js"
+    "readme-cards": "dist/cli.js"
   },
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
