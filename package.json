@@ -1,0 +1,43 @@
+{
+  "name": "@galaxygab121/readme-cards",
+  "version": "0.1.0",
+  "description": "Generate clean GitHub README project cards from JSON inputs.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Gabrielle Boyer-Baker",
+  "keywords": ["github", "readme", "markdown", "cli", "typescript"],
+  "homepage": "https://github.com/galaxygab121/readme-cards",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galaxygab121/readme-cards.git"
+  },
+  "bugs": {
+    "url": "https://github.com/galaxygab121/readme-cards/issues"
+  },
+  "bin": {
+    "readme-cards": "./dist/cli.js"
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "lint": "eslint .",
+    "format": "prettier -w .",
+    "prepublishOnly": "npm run test && npm run build"
+  },
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.12.5",
+    "@types/node": "^22.0.0",
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^2.0.0"
+  }
+}

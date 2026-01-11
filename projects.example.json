@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Task Orchestrator Platform",
+    "description": "Distributed job orchestration with Kafka, retries, and DLQs.",
+    "tech": ["Java", "Kafka", "Docker"],
+    "repoUrl": "https://github.com/galaxygab121/task-orchestrator-platform",
+    "highlights": [
+      "Kafka consumer groups for worker dispatch",
+      "DLQ routing for failed jobs"
+    ]
+  },
+  {
+    "title": "Smart Task Scheduler",
+    "description": "Benchmarked EDF/SJF/Priority scheduling strategies with multi-seed experiments.",
+    "tech": ["Java", "Algorithms"],
+    "repoUrl": "https://github.com/galaxygab121/smart-task-scheduler"
+  }
+]
